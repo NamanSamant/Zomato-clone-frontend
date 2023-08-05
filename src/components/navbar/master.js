@@ -9,14 +9,20 @@ import Night from "../Dining/night";
 const Master = () => {
     const { type } = useParams();
 
-    return(
+    return (
         <>
             <div className="m-4 lg:hidden">
+                <Delivery />
+            </div>
+            <div className="m-4">
+                <RecRest />
+            </div>
+            {/* <div className="m-4 lg:hidden">
                 {type=== "delivery" && <Delivery/>}
             </div>
             <div className = "m-4">
                 {type==="delivery" && <RecRest />}
-            </div>
+            </div> */}
             <div className="m-4">
                 {type==="dining" && <Dining/>}
             </div>
