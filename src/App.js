@@ -12,12 +12,12 @@ import master from "./components/Restaurant/DifferentSections/master";
 function App() {
   return (
     <>
-      <HomeLayoutHOC path="/" exact component={HomeComponent} />
-      <HomeLayoutHOC path="/:type" exact component={Master} />
-      <HomeLayoutHOC path="/resid/:type" exact component={master}/>
+      <HomeLayoutHOC path="/Zomato-clone-frontend" exact component={HomeComponent} />
+      <HomeLayoutHOC path="/Zomato-clone-frontend/:type" exact component={Master} />
+      <HomeLayoutHOC path="/Zomato-clone-frontend/resid/:type" exact component={master}/>
       <Routes>
-        <Route path="/xy/login" element = <LgSnLayout/> />
-        <Route path="/xy/signup" element = <SignUpPage/> />
+        <Route path="/Zomato-clone-frontend/xy/login" element = <LgSnLayout/> />
+        <Route path="/Zomato-clone-frontend/xy/signup" element = <SignUpPage/> />
       </Routes>    
     </>
   );

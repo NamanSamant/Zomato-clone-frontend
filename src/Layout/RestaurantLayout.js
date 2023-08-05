@@ -34,7 +34,7 @@ const ResLayout = () => {
                             />
                         </div>
                     </div>
-                    <a href="/resid/photos">
+                    <a href="/Zomato-clone-frontend/resid/photos">
                         <div className="w-[14rem] h-[24rem]">
                             <img
                                 src="https://b.zmtcdn.com/data/pictures/chains/4/824/a0b0737089095caea69c289948d98951.jpg?fit=around|300:273&crop=300:273;*,*"

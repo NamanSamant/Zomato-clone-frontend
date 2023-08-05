@@ -12,7 +12,7 @@ const MobileNav = () => {
     return (
         <>
             <div className="items-center justify-between flex w-full sm:hidden ">
-                <a href="/">
+                <a href="/Zomato-clone-frontend">
                     <div className="w-28">
                         <img
                             src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
@@ -36,7 +36,7 @@ const TabletNav = () => {
     return (
         <>
             <div className="w-full flex justify-between items-center hidden sm:flex lg:hidden">
-                <a href="/">
+                <a href="/Zomato-clone-frontend">
                     <div className="pl-6 w-40">
                         <img
                             src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
@@ -60,7 +60,7 @@ const BigNav = () => {
     return (
         <>
             <div className="w-full flex gap-10 items-center hidden lg:flex">
-                <a href="/">
+                <a href="/Zomato-clone-frontend">
                     <div className="ml-52 w-32">
                         <img
                             src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
@@ -79,10 +79,10 @@ const BigNav = () => {
                     <GoSearch className="w-5 h-5 text-gray-400" />
                     <input type="search" placeholder="Search for restaurant, cuisine or a dish" className="text-gray-500 w-1/2" />
                 </div>
-                <a href="/xy/login">
+                <a href="/Zomato-clone-frontend/xy/login">
                     <button className="text-gray-500 text-lg hover:text-zomato-500" type="button">Log in</button>
                 </a>
-                <a href="/xy/signup">
+                <a href="/Zomato-clone-frontend/xy/signup">
                     <button className="text-gray-500 text-lg hover:text-zomato-500" type="button">Sign up</button>
                 </a>
 

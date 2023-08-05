@@ -16,7 +16,7 @@ const RecRest = () => {
             </div>
             <div className="flex flex-wrap lg:ml-60 lg:p-0 sm:p-2 gap-12">
                 <div className="lg:w-1/4 w-full">
-                    <a href="/resid/order">
+                    <a href="/Zomato-clone-frontend/resid/order">
                         <RestaurantCard />
                     </a>
                 </div>

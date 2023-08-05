@@ -6,7 +6,7 @@ const HomeComponent = () => {
         <>
             <div className="flex flex-wrap lg:ml-56 lg:p-0 sm:p-2 gap-12">
                 <div className="lg:w-1/4 w-full">
-                    <a href="/delivery">
+                    <a href="/Zomato-clone-frontend/delivery">
                         <HomeRestaurantCard
                             src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
                             title="Order Online"
@@ -15,7 +15,7 @@ const HomeComponent = () => {
                     </a>
                 </div>
                 <div className="lg:w-1/4 w-full">
-                    <a href="/dining">
+                    <a href="/Zomato-clone-frontend/dining">
                         <HomeRestaurantCard
                             src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
                             title="Dining"
@@ -24,7 +24,7 @@ const HomeComponent = () => {
                     </a>
                 </div>
                 <div className="lg:w-1/4 w-full">
-                    <a href="/night">
+                    <a href="/Zomato-clone-frontend/night">
                         <HomeRestaurantCard
                             src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
                             title="Nightlife and Clubs"
